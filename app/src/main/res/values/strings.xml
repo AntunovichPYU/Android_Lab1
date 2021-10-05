@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">Android_lab1</string>
+    <string name="app_name">Android lab 1</string>
+    <string name="ic_launcher_foreground">ic launcher foreground</string>
+    <string name="some_text">some text</string>
+    <string name="button_text">button text</string>
+    <string name="switchText">switch text</string>
+    <string name="checkBoxText">check box</string>
+    <string name="toggleButton">Toggle Button</string>
 </resources>
