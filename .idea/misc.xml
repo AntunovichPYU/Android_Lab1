@@ -6,6 +6,13 @@
         <entry key="..\:/Users/Professional/AndroidStudioProjects/Android_lab1/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3828125" />
         <entry key="..\:/Users/Professional/AndroidStudioProjects/Android_lab1/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3828125" />
         <entry key="..\:/Users/Professional/AndroidStudioProjects/Android_lab1/app/src/main/res/layout/constrain2.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/Android_lab1/app/src/main/res/layout/layout.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/Android_lab1/app/src/main/res/layout/layout_1_11.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/Android_lab1/app/src/main/res/layout/layout_1_11_alt.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/Android_lab1/app/src/main/res/layout/layout_1_2.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/Android_lab1/app/src/main/res/layout/layout_2_11.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/Android_lab1/app/src/main/res/layout/layout_2_2.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/Android_lab1/app/src/main/res/layout/layout_3_2.xml" value="0.17831813576494426" />
         <entry key="..\:/Users/Professional/AndroidStudioProjects/Android_lab1/app/src/main/res/layout/linear11.xml" value="0.28940217391304346" />
         <entry key="..\:/Users/Professional/AndroidStudioProjects/Android_lab1/app/src/main/res/layout/linear11_alt.xml" value="0.28940217391304346" />
         <entry key="..\:/Users/Professional/AndroidStudioProjects/Android_lab1/app/src/main/res/layout/linear2.xml" value="0.28940217391304346" />
@@ -21,5 +28,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.17831813576494426" />
+      </ProjectState>
+    </option>
   </component>
 </project>

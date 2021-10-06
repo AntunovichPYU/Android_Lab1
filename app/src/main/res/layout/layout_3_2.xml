@@ -3,37 +3,37 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="0dp"
         android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintDimensionRatio="1:1"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent">
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
 
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            app:srcCompat="@drawable/ic_launcher_foreground"
-            app:layout_constraintTop_toTopOf="parent"
+            android:contentDescription="@string/ic_launcher_foreground"
             app:layout_constraintHeight_percent="0.2"
+            app:layout_constraintStart_toEndOf="@id/button"
+            app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintWidth_percent="0.4"
-            app:layout_constraintLeft_toRightOf="@id/button"
-            android:contentDescription="@string/ic_launcher_foreground" />
+            app:srcCompat="@drawable/ic_launcher_foreground" />
 
         <Button
             android:id="@+id/button"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:text="@string/button_text"
-            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/textView"
             app:layout_constraintHeight_percent="0.4"
-            app:layout_constraintWidth_percent="0.2"
-            app:layout_constraintBottom_toTopOf="@id/textView"/>
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintWidth_percent="0.2" />
 
         <TextView
             android:id="@+id/textView"
@@ -42,8 +42,8 @@
             android:text="@string/some_text"
             app:layout_constraintBottom_toTopOf="@id/switch1"
             app:layout_constraintHeight_percent="0.2"
-            app:layout_constraintWidth_percent="0.4"
-            app:layout_constraintLeft_toRightOf="@id/button"/>
+            app:layout_constraintStart_toEndOf="@id/button"
+            app:layout_constraintWidth_percent="0.4" />
 
         <androidx.appcompat.widget.SwitchCompat
             android:id="@+id/switch1"
@@ -52,29 +52,28 @@
             android:text="@string/switchText"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintHeight_percent="0.2"
-            app:layout_constraintWidth_percent="0.4"
-            app:layout_constraintLeft_toRightOf="@id/button"/>
+            app:layout_constraintStart_toEndOf="@id/button"
+            app:layout_constraintWidth_percent="0.4" />
 
         <CheckBox
             android:id="@+id/checkBox"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:text="@string/checkBoxText"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHeight_percent="0.4"
-            app:layout_constraintWidth_percent="0.2"
-            app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@id/imageView"
-            />
+            app:layout_constraintWidth_percent="0.2" />
 
         <ToggleButton
             android:id="@+id/toggleButton"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:text="@string/toggleButton"
+            app:layout_constraintBottom_toTopOf="@id/switch1"
+            app:layout_constraintEnd_toStartOf="@id/checkBox"
             app:layout_constraintHeight_percent="0.4"
-            app:layout_constraintWidth_percent="0.2"
-            app:layout_constraintRight_toLeftOf="@id/checkBox"
-            app:layout_constraintBottom_toTopOf="@id/switch1"/>
+            app:layout_constraintWidth_percent="0.2" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
